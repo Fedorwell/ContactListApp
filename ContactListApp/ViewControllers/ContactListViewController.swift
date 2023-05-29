@@ -11,6 +11,11 @@ final class ContactListViewController: UITableViewController {
     
     let myContactList = Person.getPerson()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        navigationController?.viewControllers.first?.title = "Contacts"
+    }
+    
     //    // MARK: - Override methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         myContactList.count
