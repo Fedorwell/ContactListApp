@@ -11,11 +11,6 @@ final class ExtendContactListViewController: UITableViewController {
     
     var myContactList = Person.getPerson()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        navigationController?.viewControllers.last?.title = "ExtenedContact"
-    }
-
     // MARK: - Override methods
 
     override func numberOfSections(in tableView: UITableView) -> Int {
