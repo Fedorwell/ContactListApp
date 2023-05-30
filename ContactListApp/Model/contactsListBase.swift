@@ -24,5 +24,4 @@ final class ContactsBase {
     let emails = ["jack_Sparrow", "S.Black", "Mrs._Smit", "shaolin _master", "indiana_jr", "MIB", "cate_rings", "burn_01", "partt_roket", "walter_mitty01"
     ].shuffled()
     
-    private init() {}
 }
